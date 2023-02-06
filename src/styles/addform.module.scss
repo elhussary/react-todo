@@ -1,0 +1,30 @@
+.form {
+    transform: translateY(-4.5rem);
+    width: 100%;
+    display: inline-flex;
+    input[type="text"] {
+        padding: 1rem;
+        padding-right: 0rem;
+        border: 1px solid #0d0d0d;
+        color: #c2c2c2;
+        width: 100%;
+        border-radius: 8px;
+        margin-right: 0.5rem;
+        background-color: #262626;
+        &:focus {
+            outline: 0;
+        }
+    }
+
+    button {
+        padding: 1rem;
+        background-color: #1e6f9f;
+        border-radius: 8px;
+        width: 5.8rem;
+        height: 2.8rem;
+        color: #f2f2f2;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.3rem;
+    }
+}
